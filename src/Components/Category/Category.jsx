@@ -6,7 +6,7 @@ const Category = () => {
     <div class="container">
       <h2 className="tittle">Explore by Category</h2>
       <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-3">
           <form class="form-inline">
             <input
               class="form-control mr-sm-2"
@@ -39,7 +39,7 @@ const Category = () => {
           </ul>
           <button class="btn">See More...</button>
         </div>
-        <div class="col-md-8">
+        <div class="col-md-9">
           <div class="row row-cols-1 row-cols-md-2 g-4">
             <div class="col">
               <img src={Logo} alt="" className="card-image" />

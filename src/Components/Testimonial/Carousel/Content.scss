@@ -1,0 +1,41 @@
+.content-container {
+  height: 500px;
+
+  .col-md-4 {
+    display: flex;
+    align-items: center;
+    .qoute-icon {
+      height: 70px;
+      width: 100px;
+      position: absolute;
+      transform: translate(-30%, -300%);
+      display: f;
+    }
+
+    .profile-picture {
+      background-color: grey;
+      height: 410px;
+      width: 420px;
+    }
+  }
+
+  .col-md-8 {
+    .qoute-content {
+      font-family: "Open Sans";
+      font-weight: 400;
+      font-size: 32px;
+      max-width: 800px;
+    }
+    .identity {
+      position: absolute;
+      bottom: 0;
+      margin-top: 30px;
+      font-size: 20px;
+      font-family: "Roboto";
+      margin-bottom: 100px;
+      span {
+        font-weight: bold;
+      }
+    }
+  }
+}

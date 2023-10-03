@@ -4,9 +4,14 @@
 $color_primary: #07484a;
 $color_secondary: #70908b;
 
-  h2 {
-    font-family: "Playfair Display";
-    font-weight: 600;
-    font-size: 60px;
-    color: $color_primary;
-  }
+html,
+body {
+  overflow-x: hidden;
+}
+
+h2 {
+  font-family: "Playfair Display";
+  font-weight: 600;
+  font-size: 60px;
+  color: $color_primary;
+}
