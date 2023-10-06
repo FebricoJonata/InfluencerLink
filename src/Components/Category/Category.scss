@@ -33,12 +33,15 @@
     padding: 10px 15px 10px 15px;
     margin-top: 15px;
   }
+
+  .btn:hover {
+    background-color: #07484a;
+  }
 }
 
 .card-image {
   width: 475px;
   height: 300px;
-  background-color: red;
   opacity: 1;
   transition: 0.5s ease;
   backface-visibility: hidden;
