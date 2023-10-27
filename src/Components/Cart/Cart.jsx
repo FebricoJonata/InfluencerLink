@@ -99,7 +99,7 @@ const Cart = () => {
             </div>
             <div className="btn-group">
               <button type="button" className="btn">
-                Checkout
+                <a href="/payment-status">Checkout</a>
               </button>
             </div>
           </div>
