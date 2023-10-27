@@ -1,0 +1,42 @@
+.qr-content {
+  background-color: #eeee;
+  border-radius: 20px;
+
+  img {
+    display: flex;
+    padding: 30px;
+    height: 500px;
+    width: 525px;
+  }
+}
+
+.virtual-payment {
+  background-color: #eeee;
+  padding: 30px;
+  border-radius: 20px;
+  margin-bottom: 30px;
+
+  h3 {
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #07484a;
+  }
+}
+
+.total-payment {
+  font-family: "Open Sans";
+  background-color: #eeee;
+  
+  padding: 30px;
+  border-radius: 20px;
+
+  h3 {
+    font-family: "Open Sans";
+    font-weight: 700;
+    color: #07484a;
+  }
+
+  .btn{
+    width: 100%;
+  }
+}

@@ -28,9 +28,9 @@ function CartItem({ name, price }) {
       <h3>{name}</h3>
       <h4>Rp. {price}</h4>
       <div className="cart-btn">
-        <button onClick={increment}>+</button>
-        <p>{qty}</p>
         <button onClick={decrement}>-</button>
+        <p>{qty}</p>
+        <button onClick={increment}>+</button>
       </div>
     </div>
   );
@@ -99,7 +99,7 @@ const Cart = () => {
             </div>
             <div className="btn-group">
               <button type="button" className="btn">
-                <a href="/payment-status">Checkout</a>
+                <a href="/payment">Checkout</a>
               </button>
             </div>
           </div>
