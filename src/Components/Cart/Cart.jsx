@@ -1,12 +1,13 @@
 import React from "react";
 import "./Cart.scss";
-import test from "../../Assets/Followers-amico.png";
+import Instagram from "../../Assets/instagram.png"
+import Tiktok from "../../Assets/tiktok.png"
 import BCA from "../../Assets/bca.png";
 import GoPay from "../../Assets/gopay.png";
 import OVO from "../../Assets/ovo.png";
 import Shopee from "../../Assets/shopee.png";
 
-function CartItem({ name, price }) {
+function CartItem({ image, name, price }) {
   let [qty, setQty] = React.useState(0);
 
   function increment() {
@@ -24,7 +25,7 @@ function CartItem({ name, price }) {
 
   return (
     <div className="cart-items">
-      <img src={test} alt="" srcset="" className="img-cart" />
+      <img src={image} alt="" srcset="" className="img-cart" />
       <h3>{name}</h3>
       <h4>Rp. {price}</h4>
       <div className="cart-btn">
@@ -43,9 +44,9 @@ const Cart = () => {
 
       <div className="row">
         <div className="col-md-7 cart">
-          <CartItem name="Test" price="90000" />
-          <CartItem name="Test" price="90000" />
-          <CartItem name="Test" price="90000" />
+          <CartItem image={Tiktok} name="Tiktok Video Promotion" price="500000" />
+          <CartItem image={Instagram} name="Instagram Feeds" price="1000000" />
+          <CartItem image={Instagram} name="Instagram Story" price="200000" />
         </div>
         <div className="col-md-4">
           <div className="price">

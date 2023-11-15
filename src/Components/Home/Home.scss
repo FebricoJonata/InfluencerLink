@@ -4,6 +4,80 @@
 $color_primary: #07484a;
 $color_secondary: #70908b;
 
+ul,
+li,
+a,
+button {
+  text-decoration: none;
+  list-style: none;
+  cursor: pointer;
+}
+
+nav {
+  font-family: "Open Sans";
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: sticky;
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+  margin-left: 10px;
+}
+
+.nav-items li {
+  display: inline-block;
+  padding-left: 25px;
+}
+
+.nav-items li a {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+}
+
+.nav-items li a:hover {
+  color: $color_secondary;
+}
+
+.nav-items li a::after {
+  content: "";
+  height: 3px;
+  width: 100%;
+  display: block;
+  background: $color_secondary;
+  opacity: 0;
+}
+
+.nav-items li a:hover::after {
+  opacity: 1;
+}
+
+.right-button {
+  margin-right: 40px;
+}
+
+.subs {
+  padding: 10px 15px;
+  border-style: solid;
+  border-color: $color_secondary;
+  border-width: 3px;
+  border-radius: 20px;
+  background-color: transparent;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.subs:hover {
+  background-color: $color_secondary;
+  color: #ffffff;
+  font-weight: 600;
+}
+
 .content {
   p {
     font-family: "Open Sans";
@@ -29,7 +103,7 @@ $color_secondary: #70908b;
     padding: 10px 25px 10px 25px;
     margin-top: 15px;
 
-    a{
+    a {
       text-decoration: none;
       color: white;
     }
