@@ -4,6 +4,7 @@ import Category from "../Category/Category";
 import Benefit from "../Benefit/Benefit";
 import Membership from "../Membership/Membership";
 import Testimonial from "../Testimonial/Testimonial";
+import Footer from "../footer-module/footer";
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
       <Benefit />
       <Testimonial />
       <Membership />
+      <Footer />
     </>
   );
 };

@@ -7,6 +7,7 @@ import Cart from "./Components/Cart/Cart";
 import PaymentStatus from "./Components/Payment/PaymentStatus/PaymentStatus";
 import Payment from "./Components/Payment/Payment";
 import TalentDetail from "./Components/Talent/TalentDetail/TalentDetail";
+import Profile from "./Components/profile-module/profile"
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
         <Route path="cart" element={<Cart />} />
         <Route path="payment" element={<Payment />} />
         <Route path="payment-status" element={<PaymentStatus />} />
+        <Route path="profile" element={<Profile />} />
+        
       </Routes>
     </Router>
   );
