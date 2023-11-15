@@ -20,7 +20,6 @@ function App() {
         <Route path="payment" element={<Payment />} />
         <Route path="payment-status" element={<PaymentStatus />} />
         <Route path="profile" element={<Profile />} />
-        
       </Routes>
     </Router>
   );
