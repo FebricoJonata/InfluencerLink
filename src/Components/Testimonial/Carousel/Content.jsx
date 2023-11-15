@@ -10,11 +10,11 @@ export default function TestimonialContent({
   return (
     <div className="content-container">
       <div className="row">
-        <div className="col-md-4">
-          {/* <img src={Qoute} alt="" className="qoute-icon" /> */}
+        <div className="col-md-5">
           <img src={photo} alt="" className="profile-picture" />
         </div>
-        <div className="col-md-8">
+
+        <div className="col-md-7">
           <p className="qoute-content">" {testimonial} "</p>
           <p className="identity">
             <span>{name}&nbsp;</span> <br />

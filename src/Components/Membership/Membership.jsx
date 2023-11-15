@@ -3,10 +3,10 @@ import "./Membership.scss";
 const Membership = () => {
   return (
     <div class="row">
-      <div class="col-md-5 bg-warning">
-        test
+      <div class="col-md-4">
+        <img src="https://media.istockphoto.com/id/1346370830/photo/todays-unboxing.webp?b=1&s=170667a&w=0&k=20&c=yxmnfmTQlkgR5RtMRyGwYq3YreTgZgHZtxGHjPN-lfw=" alt="membership" />
       </div>
-      <div class="col-md-7">
+      <div class="col-md-8">
         <div className="membership-content">
           <h1>
             Join Our&nbsp;<span> Membership</span>
