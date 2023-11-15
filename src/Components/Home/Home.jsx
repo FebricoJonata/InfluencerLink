@@ -14,7 +14,9 @@ const Home = () => {
             <div className="content">
               <h2>Exclusive Deals of Experts Talents</h2>
               <p>Explore different categories. Find the best deals.</p>
-              <button className="btn">Find Now</button>
+              <button className="btn">
+                <a href="/talent">Find Now</a>
+              </button>
             </div>
           </div>
 

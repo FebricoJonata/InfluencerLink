@@ -3,7 +3,9 @@ import "./Membership.scss";
 const Membership = () => {
   return (
     <div class="row">
-      <div class="col-md-5 bg-warning">One</div>
+      <div class="col-md-5 bg-warning">
+        test
+      </div>
       <div class="col-md-7">
         <div className="membership-content">
           <h1>
