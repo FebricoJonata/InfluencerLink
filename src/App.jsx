@@ -7,7 +7,7 @@ import Cart from "./Components/Cart/Cart";
 import PaymentStatus from "./Components/Payment/PaymentStatus/PaymentStatus";
 import Payment from "./Components/Payment/Payment";
 import TalentDetail from "./Components/Talent/TalentDetail/TalentDetail";
-import Profile from "./Components/profile-module/profile"
+// import Profile from "./Components/profile-module/profile"/
 
 function App() {
   return (
