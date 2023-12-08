@@ -20,12 +20,12 @@ const Home = () => {
             <li>
               <a href="/cart">Cart</a>
             </li>
-            {/* <li>
-              <a href="/Pages/aboutUs.html"></a>
+            <li>
+              <a href="/Pages/aboutUs.html">About Us</a>
             </li>
             <li>
               <a href="/Pages/events.html">Events</a>
-            </li> */}
+            </li>
           </ul>
         </div>
         <div class="right-button">
@@ -34,6 +34,7 @@ const Home = () => {
           </a>
         </div>
       </nav>
+
       <div class="container">
         <div class="row" style={{ height: "700px" }}>
           <div class="col-md-6 d-flex align-items-center">
