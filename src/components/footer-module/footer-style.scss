@@ -6,24 +6,23 @@
     font-family: 'Inter', sans-serif;
 }
 
-.imgstyle:hover{
-    opacity: 80%;
-}
-
 .main-footer{
+    height: 400px;
     font-family: 'Playfair Display';
 }
 
-.img-size{
-    object-fit: fill;
-    height: auto;
-    width: 30%;
-}
+// .footer-bottom {
+//     position: fixed;
+//     bottom: 0;
+// }
+
+
 
 .menu-btn{
+    font-family: 'Poppins';
     font-size: 18px;
-    text-decoration: none;
-    color: #00292B;
+    font-weight: light;
+    color: gainsboro;
 }
 
 .menu-btn:hover{
@@ -32,4 +31,65 @@
 
 .bg-footer{
     background-color: #70908B;
+}
+
+.footer-container {
+
+    & .imgstyle {
+        height: 30px;
+        padding: 0 0 0 340px;
+        margin: 0 0 15px 0;
+    }
+
+    & .imgstyle:hover{
+        opacity: 80%;
+    }
+
+    & .decor {
+        border: #003e41 2.2px solid;
+        margin: 0 0 35px 10px;
+        width: 50px;
+        border-radius: 10px;
+    }
+
+    margin: 0 100px 0 100px;
+    display: flex;
+    font-family: 'Poppins';
+    flex-direction: column;
+    color: white;
+
+    & .title {
+        font-size: 22px;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+
+    h3 {
+        margin: 0 0 15px 0;
+        font-size: 15px;
+    }
+}
+
+.credit-container {
+
+    display: flex;
+    flex-direction: row;
+
+    & .text-credit {
+        padding: 10px 0 0 0;
+        color: white;
+        margin: 0 10px 0 20px;
+        font-family: 'Poppins';
+    }
+
+    & .credit{
+        margin: 60px 0 0 90px;
+        display: flex;
+    }
+
+    img {
+        object-fit: fill;
+        height: auto;
+        width: 40px;
+    }
 }

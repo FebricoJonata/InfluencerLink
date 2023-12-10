@@ -1,13 +1,14 @@
 .benefit-container {
   margin-top: 20px;
   background-color: #e0eff6;
-  height: 500px;
+  height: 470px;
 
-  .tittle {
+  .title {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
-    padding: 15px;
+    font-size: 42px;
+    margin-top: 70px;
+    padding: 40px 0 0 0;
   }
 
   .row {
@@ -28,6 +29,7 @@
       p {
         font-family: "Open Sans";
         font-weight: 400;
+        font-size: 17px;
         margin: 15px;
       }
     }

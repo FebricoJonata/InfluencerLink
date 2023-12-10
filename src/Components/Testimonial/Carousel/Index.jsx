@@ -85,28 +85,29 @@ export default function TestimonialCarousel() {
         <div class="carousel-item active">
           <TestimonialContent
             photo={Logo}
-            testimonial="Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dignissimos maxime harum?"
-            name={"Febrico Jonata"}
-            position={"Software Engineer"}
+            testimonial={"\"Incredible service! The team went above and beyond to meet our project requirements. Their expertise and dedication are truly commendable. Looking forward to future collaborations\""}
+            name={"William Gozali"}
+            position={"Restaurant Owner"}
           />
         </div>
         <div class="carousel-item">
           <TestimonialContent
             photo={Logo}
-            testimonial="Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dignissimos maxime harum?"
-            name={"Febrico Jonata"}
-            position={"Software Engineer"}
+            testimonial={"\"I've had the pleasure of working with this team on multiple projects. Their commitment to quality and timely delivery is unmatched. I highly recommend their services.\""}
+            name={"Julian Alvarez"}
+            position={"Football Player"}
           />
         </div>
         <div class="carousel-item">
           <TestimonialContent
             photo={Logo}
-            testimonial="Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto dignissimos maxime harum?"
-            name={"Febrico Jonata"}
-            position={"Software Engineer"}
+            testimonial={"\"Amazing service :) \""}
+            name={"Jerome Polin"}
+            position={"Influencer"}
           />
         </div>
       </div>
+      
       <button
         class="carousel-control-prev"
         type="button"

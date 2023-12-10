@@ -1,15 +1,16 @@
 import "./Membership.scss";
+import Logo from "../../Assets/Followers-amico.png";
 
 const Membership = () => {
   return (
     <div class="row">
-      <div class="col-md-4">
+      {/* <div class="col-md-4">
         <img src="https://media.istockphoto.com/id/1346370830/photo/todays-unboxing.webp?b=1&s=170667a&w=0&k=20&c=yxmnfmTQlkgR5RtMRyGwYq3YreTgZgHZtxGHjPN-lfw=" alt="membership" />
-      </div>
-      <div class="col-md-8">
+        <img src={Logo}></img>
+      </div> */}
+      <div class="d-flex content">
         <div className="membership-content">
-          <h1>
-            Join Our&nbsp;<span> Membership</span>
+          <h1>Join Our <span>Membership</span>
           </h1>
           <p>Receive exclusive deals, discounts and many offers.</p>
           <input

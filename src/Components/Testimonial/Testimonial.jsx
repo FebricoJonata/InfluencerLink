@@ -3,10 +3,12 @@ import "./Testimonial.scss";
 
 const Testimonial = () => {
   return (
-    <div className="container">
-      <h2 class="d-flex justify-content-center">Testimonials</h2>
+    <div className="background-color">
+        <div className="container">
+        <h2 class="d-flex justify-content-center" className="title">Testimonials</h2>
 
-      <TestimonialCarousel />
+        <TestimonialCarousel />
+      </div>
     </div>
   );
 };

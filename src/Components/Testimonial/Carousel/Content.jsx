@@ -15,7 +15,7 @@ export default function TestimonialContent({
         </div>
 
         <div className="col-md-7">
-          <p className="qoute-content">" {testimonial} "</p>
+          <p className="qoute-content">{testimonial}</p> 
           <p className="identity">
             <span>{name}&nbsp;</span> <br />
             {position}
