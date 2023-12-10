@@ -3,7 +3,7 @@ import "./Category.scss";
 const Category = () => {
   return (
     <div class="container">
-      <h2 className="tittle">Explore by Category</h2>
+      <div className="title">Explore by Category</div>
       <div class="row">
         <div class="col-md-3">
           <form class="form-inline">
@@ -13,6 +13,7 @@ const Category = () => {
               placeholder="Search"
             />
           </form>
+
           <ul>
             <li>
               <a href="/">Fashion and Beauty</a>
@@ -33,10 +34,15 @@ const Category = () => {
               <a href="/">Pets and Animal</a>
             </li>
             <li>
-              <a href="/">Lifestyle</a>
+              <a href="/">ASMR</a>
+            </li>
+            <li>
+              <a href="/">Horror</a>
             </li>
           </ul>
+
           <button class="btn">See More...</button>
+
         </div>
         <div class="col-md-9">
           <div class="row row-cols-1 row-cols-md-2 g-4">

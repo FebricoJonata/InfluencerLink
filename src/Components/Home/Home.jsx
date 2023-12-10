@@ -5,7 +5,7 @@ import Benefit from "../Benefit/Benefit";
 import Membership from "../Membership/Membership";
 import Testimonial from "../Testimonial/Testimonial";
 import Footer from "../footer-module/footer";
-import InfluencerLink from "../../Assets/InfluencerLink Logo.png"
+import InfluencerLink from "../../Assets/Logo New - Putih.png"
 
 const Home = () => {
   return (
@@ -20,12 +20,12 @@ const Home = () => {
             <li>
               <a href="/cart">Cart</a>
             </li>
-            {/* <li>
-              <a href="/Pages/aboutUs.html"></a>
+            <li>
+              <a href="/Pages/aboutUs.html">About Us</a>
             </li>
             <li>
               <a href="/Pages/events.html">Events</a>
-            </li> */}
+            </li>
           </ul>
         </div>
         <div class="right-button">
@@ -34,10 +34,11 @@ const Home = () => {
           </a>
         </div>
       </nav>
+
       <div class="container">
-        <div class="row" style={{ height: "700px" }}>
+        <div class="row" style={{ height: "650px" }}>
           <div class="col-md-6 d-flex align-items-center">
-            <div className="content">
+            <div className="content2">
               <h2>Exclusive Deals of Experts Talents</h2>
               <p>Explore different categories. Find the best deals.</p>
               <button className="btn">Find Now</button>

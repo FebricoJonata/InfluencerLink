@@ -6,7 +6,7 @@ import Payment from "../../Assets/payment.png";
 const Benefit = () => {
   return (
       <div class="container" className="benefit-container">
-        <h2 className="tittle">Benefit</h2>
+        <h2 className="title">Benefit</h2>
         <div class="row">
           <div class="col">
             <img src={Payment} alt="" />

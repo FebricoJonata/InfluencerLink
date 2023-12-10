@@ -3,67 +3,68 @@ import x from "./Image/twt.png";
 import drib from "./Image/dribble.png";
 import li from "./Image/linkedin.png";
 import fb from "./Image/fb.png";
-import logo from "./Image/logo.png";
+import logo from "../../Assets/Logo New - Putih.png";
 import "./footer-style.scss";
 
 function Footer() {
   return (
     <div class="container-fluid bg-footer main-footer">
-      <div class="row">
-        {/* LOGO AND MENU */}
-        <div class="col-12 col-md-6 col-lg-4">
-          <div class="container-fluid d-flex align-items-center justify-content-center flex-column">
-            <img class="img-fluid img-size" src={logo} alt="" />
-            <h4 class="text-start fs-5">© 2023 InfluencerLink</h4>
-            <h4 class="text-start fs-5">Bina Nusantara University</h4>
-          </div>
-        </div>
-
-        {/* SUBMENUS */}
-        <div class="col-12 col-md-6 col-lg-4 container-fluid d-flex align-items-center">
-          <div class="row d-flex container-fluid flex-between justify-content-center mx-5">
+      <div class="column">
+        <div class="row" style={{ paddingTop: "70px" }}>
+          {/* SUBMENUS */}
+          <div className="d-flex flex-row ">
             <Menus
-              title={"About"}
+              title={"About Us"}
               m1={"Contact Us"}
-              m2={"Popular Talents"}
-              m3={"Media Partners"}
+              m2={"Talents"}
+              m3={"Partners"}
               m4={"Testimonials"}
             />
 
             <Menus
-              title={"Legal"}
+              title={"Legal Help"}
               m1={"Terms"}
               m2={"Conditions"}
               m3={"Privacy Policy"}
             />
 
-            <Menus title={"Shop"} m1={"Talents"} m2={"Categories"} />
+            <Menus title={"Search"} m1={"Talents"} m2={"Categories"} />
+
+            {/* Social Media */}
+
+            <div class="d-flex flex-column" className="footer-container">
+              <a href="">
+                {" "}
+                <img class="imgstyle" src={fb} alt="" />{" "}
+              </a>
+              <a href="">
+                {" "}
+                <img class="imgstyle" src={ig} alt="" />
+              </a>
+              <a href="">
+                {" "}
+                <img class="imgstyle" src={li} alt="" />
+              </a>
+              <a href="">
+                {" "}
+                <img class="imgstyle" src={drib} alt="" />
+              </a>
+              <a href="">
+                {" "}
+                <img class="imgstyle" src={x} alt="" />
+              </a>
+            </div>
           </div>
         </div>
+        {/* LOGO AND MENU */}
 
-        {/* SOCIAL MEDIA */}
-        <div class="col-12 col-md-6 col-lg-4 d-flex align-items-center justify-content-center ">
-          <div class="d-flex container-fluid justify-content-evenly align-items">
-            <a href="">
-              {" "}
-              <img class="imgstyle" src={fb} alt="" />{" "}
-            </a>
-            <a href="">
-              {" "}
-              <img class="imgstyle" src={ig} alt="" />
-            </a>
-            <a href="">
-              {" "}
-              <img class="imgstyle" src={li} alt="" />
-            </a>
-            <a href="">
-              {" "}
-              <img class="imgstyle" src={drib} alt="" />
-            </a>
-            <a href="">
-              {" "}
-              <img class="imgstyle" src={x} alt="" />
-            </a>
+        <div className="credit-container">
+          <div className="credit">
+            <img class="img-fluid" src={logo} alt="" />
+            <p class="text-start fs-10 text-credit">© 2023 InfluencerLink</p>
+            <p class="text-start fs-10 text-credit">
+              Bina Nusantara University
+            </p>
           </div>
         </div>
       </div>
@@ -73,8 +74,11 @@ function Footer() {
 
 function Menus({ title, m1, m2, m3, m4 }) {
   return (
-    <div class="col-4 container-fluid d-flex flex-column text-start">
-      <h3 class="fs-5 fw-bold py-4">{title}</h3>
+    <div class="footer-container">
+      <h3 class="fw-bold py-4" className="title">
+        {title}
+      </h3>
+      <div className="decor"></div>
       <a class="text-decoration-none" href="">
         <h3 class="menu-btn">{m1}</h3>
       </a>
